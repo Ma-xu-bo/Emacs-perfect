@@ -1,0 +1,6 @@
+ls
+rm \#present.org\# 
+rm present.org\~
+ls
+exit
+man openssl

@@ -1,0 +1,30 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/emacs01/git_repo/" . "github_Emacs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ 
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/emacs01/.emacs.d/" (24383 17058 801395 525000) "myinit.org" "elpa/" "../" ".#myinit.org" "myinit.el" "recentf" "snippets/" "./" "auto-save-list/" "games/" "ac-comphist.dat" "python/" "ido.last" "lisp/" "transient/" "samples/" "eshell/" "init.el")
+
+ ("/home/emacs01/git_repo/github_Emacs/" (24381 6789 685054 680000) "../" "Emacs/" "./")
+
+ ("/home/emacs01/git_repo/" (24382 34758 554414 646000) "github_Emacs/" "../" "README.md" ".git/" "./" "zamansky/" "github_OpenSSL/")
+
+ ("/home/emacs01/" (24383 11138 820884 623000) ".pki/" "../" ".bash_history" ".gnupg/" ".elfeed/" "git_repo/" "./" ".bash_profile" ".git-credentials" ".config/" ".emacs.d/" ".bashrc" ".gitconfig" ".cache/" "config-emacs/" "tmp/" ".ssh/" ".Xauthority" ".bash_logout")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
