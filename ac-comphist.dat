@@ -1,144 +1,34 @@
-((("nil" .
-   [2 0 0])
-  ("make-backup-files" .
+((("endl" .
+   [1 0 0 0])
+  ("cout" .
+   [1 0 0 0])
+  ("version-control" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("kept-old-versions" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("backup" .
-   [0 0 0 0 1 0])
-  ("org-indent-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("org" .
-   [1 0 0])
-  ("-*-mode:" .
-   [1 0 0 0 0 0 0 0])
-  ("web-mode-engines-alist" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("ac-source-abbrev" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("ac-source-words-in-buffer" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("ac-source" .
-   [0 0 0 0 0 0 0 0 1])
-  ("ac-source-css-property" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("auto-mode-alist" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("add-to-list" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("web-mode" .
-   [0 0 0 0 0 0 0 4])
-  ("ivy-display-style" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("ivy-use-virtual-buffers" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("setq" .
-   [5 0 0 2])
-  ("ivy-switch-buffer" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  (":bind" .
-   [0 0 0 0 1])
-  ("ivy-mode" .
-   [1 0 0 0 0 0 0 1])
-  ("ivy" .
-   [1 0 0])
-  ("load-if-exists" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("load-file" .
-   [0 0 0 0 0 0 1 0 1])
-  ("file-readable-p" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("if" .
-   [1 0])
-  ("defun" .
-   [1 0 0 0 0])
-  ("iedit-mode" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("emacs" .
-   [0 0 0 0 1])
-  ("my" .
-   [2 0])
-  ("isqrt" .
-   [0 0 0 0 1])
-  ("name" .
-   [1 0 0 2])
-  ("random" .
-   [0 0 0 0 0 1])
-  ("import" .
-   [0 0 0 0 0 1])
-  ("print" .
-   [0 0 0 1 1])
-  ("return" .
-   [0 0 0 0 0 1])
-  ("expand-file-name" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("org-babel-load-file" .
+  ("kept-new-versions" .
+   [0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("delete-old-versions" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("use-package" .
-   [0 0 0 0 0 0 0 0 0 0 10])
-  ("zenburn-theme" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 1])
-  (":ensure" .
-   [0 0 0 0 2 0 7])
-  (":config" .
-   [0 0 0 0 4 0 1])
-  ("load-theme" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("jedi:setup" .
-   [0 0 0 0 1 0 0 0 0 1])
-  (":init" .
-   [2 0 0 0 0])
-  ("add-hook" .
-   [0 0 0 0 0 1 0 1])
-  ("python-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1])
-  ("python" .
+  ("delete" .
    [0 0 0 0 0 1])
-  ("class" .
-   [0 0 0 0 1])
-  ("object" .
-   [0 0 0 1 0 0])
-  ("myclass" .
-   [0 0 0 0 2 0 0])
-  ("self" .
-   [0 0 0 3])
-  ("args" .
-   [1 0 1 1])
-  ("super" .
-   [0 0 0 1 0])
-  ("_init_" .
-   [0 0 0 0 1 0])
-  ("world" .
-   [1 0 0 0 0])
-  ("is" .
-   [5 0])
-  ("keyboard" .
-   [1 0 0 0 0 0 0 0])
-  ("keyboardmacrohello" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0])
-  ("global" .
-   [0 0 1 0 0 0])
-  ("global-set-key" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 2])
-  ("kbd" .
-   [2 0 0])
-  ("undo-tree-mode" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("global-undo-tree-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("global-hl-line-mode" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("beacon-mode" .
-   [0 0 0 0 0 0 1 0 1 0 0])
-  ("beacon" .
-   [0 0 0 0 0 1])
-  ("expand-region" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("er/expand-region" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("mane" .
-   [2 0 0 0])
-  ("masajskdjfksjhne" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("make-backup-file" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("magit" .
-   [1 0 0 0 0])))
+  ("backup-directory-alist" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("backup-diff" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("backup-by-copying" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setq" .
+   [1 0 0 0])
+  ("auto-save-interval" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("autoload" .
+   [0 0 0 0 1 0 0 0])
+  ("auto-save-timeout" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("setq-default" .
+   [0 0 0 0 0 0 1 1 0 0 0 0])
+  ("include" .
+   [0 0 0 0 0 0 1])
+  ("fact" .
+   [1 0 0 1])))

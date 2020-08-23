@@ -1412,6 +1412,7 @@
 #+END_SRC
 * All the icons
 
+
 #+BEGIN_SRC emacs-lisp
 (use-package all-the-icons 
 :ensure t
@@ -1432,5 +1433,24 @@
 )
 
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
+
+#+END_SRC
+
+ 
+* Auto-Save file
+#+BEGIN_SRC emacs-lisp
+  (setq-default auto-save-timeout 15)
+  (setq-default auto-save-interval 100)
+
+  ;;(setq make-backup-files nil)
+
+  (setq
+   backup-by-copying t
+   backup-directory-alist
+   '(("." . "~/.em_backup"))
+   delete-old-versions t
+   kept-new-versions 3
+   kept-old-versions 1
+   version-control t)
 
 #+END_SRC

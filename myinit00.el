@@ -181,6 +181,14 @@
 
 (global-company-mode t)
 )
+;;added 0823-1030
+(use-package auto-complete
+:ensure t
+:init
+(progn
+(ac-config-default)
+(global-auto-complete-mode t)
+))
 
 
 (defun my/python-mode-hook ()
@@ -1113,3 +1121,19 @@ narrowed."
 
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 ;; All the icons:1 ends here
+
+;; [[file:~/.emacs.d/myinit00.org::*Auto-Save%20file][Auto-Save file:1]]
+(setq-default auto-save-timeout 15)
+(setq-default auto-save-interval 100)
+
+;;(setq make-backup-files nil)
+
+(setq
+ backup-by-copying t
+ backup-directory-alist
+ '(("." . "~/.em_backup"))
+ delete-old-versions t
+ kept-new-versions 3
+ kept-old-versions 1
+ version-control t)
+;; Auto-Save file:1 ends here
